@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+//Uso exclusivo para didactica
 
 public class MainActivity extends ActionBarActivity {
 
