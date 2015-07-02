@@ -88,7 +88,7 @@ public class MainActivity extends Activity implements
             mediaPlayer.setDataSource(path);
             mediaPlayer.setDisplay(surfaceHolder);
             mediaPlayer.prepare();
-            mediaPlayer.prepareAsync(); //Para streaming
+            // mMediaPlayer.prepareAsync(); Para streaming
             mediaPlayer.setOnBufferingUpdateListener(this);
             mediaPlayer.setOnCompletionListener(this);
             mediaPlayer.setOnPreparedListener(this);
